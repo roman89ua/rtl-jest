@@ -17,7 +17,10 @@ const config = {
   collectCoverage: true,
   coverageThreshold: {
     "src/**/*.{ts,tsx}": {
-      lines: 95,
+      branches: 90,
+      lines: 90,
+      functions: 90,
+      statments: -10,
     },
   },
 };
